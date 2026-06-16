@@ -1,19 +1,13 @@
 # Developer Pages
 
-Public-facing developer documents hosted via GitHub Pages.
+This site hosts supporting documents for apps published on the Apple App Store.
 
-## Contents
+**[carlhammond.github.io/Developer-Pages](https://carlhammond.github.io/Developer-Pages/)**
 
-| Path | Description |
-|------|-------------|
-| [`docs/Marble-Solitaire-Swift/privacy.html`](docs/Marble-Solitaire-Swift/privacy.html) | Privacy policy for the Marble Solitaire iOS app |
+## Privacy Policies
 
-## Adding a new page
+- [Marble Solitaire](https://carlhammond.github.io/Developer-Pages/Marble-Solitaire-Swift/privacy.html)
 
-1. Create a folder under `docs/` named after the app (e.g. `docs/My-App/`).
-2. Add an HTML file inside it (e.g. `privacy.html`).
-3. The page will be live at `https://carlhammond.github.io/Developer-Pages/My-App/privacy.html` once pushed.
+---
 
-## License
-
-© 2026 Carl Hammond. All rights reserved.
+© 2026 Carl Hammond
