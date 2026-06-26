@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Privacy Policy
+    url: https://carlhammond.github.io/Developer-Pages/Marble-Solitaire-Swift/privacy.html
+    about: How your data is handled (nothing is collected).

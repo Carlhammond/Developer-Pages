@@ -1,0 +1,70 @@
+name: Support request / Bug report
+description: Report a problem or ask for help with one of my apps
+title: "[Support] "
+labels: ["support"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reaching out! Fill in the details below so I can help quickly.
+        Please don't include any sensitive personal information — it isn't needed.
+  - type: dropdown
+    id: app
+    attributes:
+      label: Which app?
+      description: This repo covers more than one app — pick the relevant one.
+      options:
+        - Marble Solitaire
+        - Other (name it in the description)
+    validations:
+      required: true
+  - type: dropdown
+    id: type
+    attributes:
+      label: What kind of report is this?
+      options:
+        - Bug / something not working
+        - Question / need help
+        - Feature suggestion
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What did you expect, and what actually happened?
+      placeholder: When I tap …
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce (if it's a bug)
+      placeholder: |
+        1. Open the app
+        2. Tap …
+        3. See …
+    validations:
+      required: false
+  - type: input
+    id: app-version
+    attributes:
+      label: App version
+      description: Shown on the app's About screen (e.g. 1.0).
+      placeholder: "1.0"
+    validations:
+      required: false
+  - type: input
+    id: ios-version
+    attributes:
+      label: iOS version
+      placeholder: "e.g. iOS 18.5"
+    validations:
+      required: false
+  - type: input
+    id: device
+    attributes:
+      label: iPhone model
+      placeholder: "e.g. iPhone 15"
+    validations:
+      required: false
